@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.facefinder/
+
+# Runtime and local test data
+offline-appdata-test/
+*.sqlite3
+
+# Windows executables and installer output
+*.exe
+dist/
+release/
+build/
+*.spec
+
+# Node/starter dependencies
+node_modules/
+.next/
+.vinext/
+.npm-cache/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets and local environment
+.env
+.env.*
+*.pem
